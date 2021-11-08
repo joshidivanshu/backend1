@@ -11,6 +11,6 @@ class NameView(APIView):
     def get(self, request):
         name = request.GET.get('name','')
         if not name:
-            return HttpResponse(json.dumps({'msg':'Name not provie'}))
+            return HttpResponse(json.dumps("Please provide name query parameter!"))
         return HttpResponse(json.dumps(("Happy Birthday, "+str(name)+"!")))
 
