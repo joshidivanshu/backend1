@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-wjhnk@c(**b3hw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['backend-1-zrdni.ondigitalocean.app']
+ALLOWED_HOSTS = ['backend-1-2-apw9j.ondigitalocean.app']
 
 
 # Application definition
